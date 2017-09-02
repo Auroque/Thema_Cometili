@@ -52,8 +52,8 @@
  	</div>
  </div>
 
-<div class="section pg-conheca">
-	<div class="container projeto">
+<div class="section">
+	<div class="container parceiros">
 		<div class="row">
 			<h1 id="fluxo">Fluxo</h1>
 			<div class="col-md-12">
