@@ -135,7 +135,7 @@ a{
 
 .slides li .caption p{
 	font-size: 1.5em;
-	text-shadow: 3px 3px 5px #000;
+	text-shadow: 1px 1px 3px #000;
 }
 
 .slides li{
@@ -268,7 +268,7 @@ a{
 	padding: 5px 20px;
 }
 
-.parceiros h1{
+.parceiros h1, #fluxo{
 	color: #505050;
 	margin-left: 20px;
 	margin-bottom: 25px;
@@ -367,6 +367,10 @@ a{
 .single p{
 	font-size: 1.5em;
     line-height: 1.5em;
+}
+
+.wpcf7-form p label, .wpcf7-form p label input{
+	font-size: 1.2em;
 }
 
 @media (max-width: 800px){

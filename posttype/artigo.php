@@ -53,6 +53,7 @@ class Artigos
                 'thumbnail',
                 'editor',
                 'age-attributes',
+                'excerpt'
 
             ),
             //'taxonomies' => array('taxonomia')

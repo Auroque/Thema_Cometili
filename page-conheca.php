@@ -51,6 +51,18 @@
  		</div>
  	</div>
  </div>
+
+<div class="section pg-conheca">
+	<div class="container projeto">
+		<div class="row">
+			<h1 id="fluxo">Fluxo</h1>
+			<div class="col-md-12">
+				<img class="imagem-projeto" src="<?php bloginfo('template_directory'); ?>/img/fluxo.png">		
+			</div>
+		</div>
+	</div>
+</div>
+
  <div class="section">
  	<div class="container parceiros">
  		<div class="row">	
@@ -84,5 +96,15 @@
  		</div>
  	</div>
  </div>
+<div id="degustar"" class="section">
+	<div class="container parceiros">
+		<div class="row">
+			<h1 id="title-segmento">Degustar</h1><hr>
+			<div class="col-md-6 col-md-offset-3">
+				<?php echo do_shortcode( '[contact-form-7 id="131" title="Degustar"]' ); ?>
+			</div>
+		</div>
+	</div>
+</div>
 
  <?php get_footer(); ?>

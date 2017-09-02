@@ -98,16 +98,20 @@ $sections = new WP_Query(
 			?>
 				<h1>Parceiros</h1>
 				<div class="slider-area">
-					<div class="owl-carousel owl-theme">
+					<!--<div class="owl-carousel owl-theme">-->
+						<div class="row">
 							<?php if ($sections->have_posts()): ?>
 								<?php while ($sections->have_posts()) : $sections->the_post(); ?>
-								<div class="item">
+								<!--<div class="item">-->
+									<div class="col-md-2">
 									<a href="#"><img id="imgColorida" alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;"></a>
-								</div>
+									</div>
+								<!--</div>-->
 								<?php endwhile; ?>
 							<?php endif; ?>
 						<?php wp_reset_query(); ?>
-					</div>
+						</div>
+					<!--</div>-->
 				</div>
  		</div>
  	</div>
@@ -133,16 +137,20 @@ $sections = new WP_Query(
 			?>
 				<h1>Clientes</h1>
 				<div class="slider-area">
-					<div class="owl-carousel owl-theme">
+					<!--<div class="owl-carousel owl-theme">-->
+					<div class="row">
 							<?php if ($sections->have_posts()): ?>
 								<?php while ($sections->have_posts()) : $sections->the_post(); ?>
-								<div class="item">
+								<!--<div class="item">-->
+									<div class="col-md-2">
 									<a href="#"><img id="imgColorida" alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;"></a>
-								</div>
+									</div>
+								<!--</div>-->
 								<?php endwhile; ?>
 							<?php endif; ?>
 						<?php wp_reset_query(); ?>
 					</div>
+					<!--</div>-->
 				</div>
  		</div>
  	</div>
